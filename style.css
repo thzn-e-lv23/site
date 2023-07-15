@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0 auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ul{
+    margin-top: 30px;
+}
+
+.Menu{
+    list-style: none;
+    display: inline-block;
+    margin-left: 150px;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: 3px solid dodgerblue;
+    border-radius: 60px;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.Menu:hover{
+    background-color: dodgerblue;
+    cursor: pointer;
+}
